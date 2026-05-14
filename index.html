@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Italian Restaurant Da Nang | Trattoria Da Stefano — Traditional Italian Cuisine</title>
+<meta name="description" content="Trattoria Da Stefano in Da Nang: authentic Roman cuisine, handmade pasta and pizza. Open daily 10:30–22:30. Book your table via WhatsApp +84 336 069 894. An Thuong area.">
+<meta name="description:vi" content="Trattoria Da Stefano tại Đà Nẵng: ẩm thực Ý chính thống, mì ống tự làm và pizza. Mở cửa hàng ngày 10:30–22:30. Đặt bàn qua WhatsApp +84 336 069 894.">
+<link rel="canonical" href="https://trattoriadastefano.com/">
+<link rel="alternate" hreflang="en" href="https://trattoriadastefano.com/">
+<link rel="alternate" hreflang="vi" href="https://trattoriadastefano.com/?lang=vi">
+<link rel="alternate" hreflang="x-default" href="https://trattoriadastefano.com/">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="Trattoria Da Stefano — Authentic Italian Cuisine in Da Nang">
+<meta property="og:description" content="Handmade pasta, Roman classics, wood-fired pizza. Open daily in An Thuong, Da Nang.">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="vi_VN">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Trattoria Da Stefano",
+  "description": "Authentic Roman Italian cuisine in Da Nang. Handmade pasta, pizza, traditional secondi.",
+  "url": "https://trattoriadastefano.com",
+  "telephone": "+84336069894",
+  "servesCuisine": ["Italian","Roman","Pizza","Mediterranean"],
+  "hasMenu": "https://trattoriadastefano.com/#menu",
+  "acceptsReservations": "True",
+  "priceRange": "$$",
+  "currenciesAccepted": "VND",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Lo 04 An Thuong 29",
+    "addressLocality": "Ngu Hanh Son",
+    "addressRegion": "Da Nang",
+    "addressCountry": "VN"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "10:30",
+    "closes": "22:30"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/people/Trattoriadastefanodanang/61587987500409/",
+    "https://www.tripadvisor.com/Restaurant_Review-g298085-d34174590-Reviews-Trattoria_Da_Stefano-Da_Nang.html"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --primary: #cc2200;
+  --primary-dk: #a81a00;
+  --primary-lt: #ff3d1a;
+  --accent: #f0b429;
+  --accent-lt: #ffd96a;
+  --green: #2e7d32;
+  --green-lt: #43a047;
+  --bg: #fffdf7;
+  --bg-alt: #fff5e6;
+  --bg-dark: #1c0800;
+  --bg-nav: #1c0800;
+  --text: #1c0800;
+  --text-muted: #6b3a1f;
+  --white: #ffffff;
+  --border: rgba(204,34,0,0.18);
+  --checkered: #cc2200;
+  --nav-h: 72px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Lora',Georgia,serif;background:var(--bg);color:var(--text);overflow-x:hidden}
+:lang(vi),[data-vi]{font-family:'Be Vietnam Pro',sans-serif}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+
+/* NAV */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:var(--bg-nav);
+  border-bottom:3px solid var(--primary);
+  padding:0 5%;
+  box-shadow:0 3px 16px rgba(0,0,0,.45);
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:var(--nav-h);max-width:1200px;margin:0 auto}
+
+/* LOGO — tricolore italiano */
+.nav-logo{
+  display:flex;flex-direction:column;justify-content:center;line-height:1;
+  text-decoration:none;gap:3px;
+}
+.nav-logo-top{
+  font-family:'Lora',serif;
+  font-style:italic;
+  font-size:.72rem;
+  font-weight:400;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.55);
+}
+.nav-logo-name{
+  display:flex;align-items:baseline;gap:0;line-height:1;
+}
+/* tricolore: "da" verde, spazio, "Ste" bianco, "fa" bianco, "no" rosso */
+.logo-da{
+  font-family:'Abril Fatface',serif;
+  font-size:1.1rem;
+  color:#4caf50;
+  letter-spacing:.02em;
+  text-shadow:0 1px 6px rgba(0,0,0,.6);
+}
+.logo-ste{
+  font-family:'Abril Fatface',serif;
+  font-size:2rem;
+  color:#ffffff;
+  letter-spacing:.01em;
+  text-shadow:0 2px 8px rgba(0,0,0,.7);
+  line-height:1;
+}
+.logo-fa{
+  font-family:'Abril Fatface',serif;
+  font-size:2rem;
+  color:#ffffff;
+  letter-spacing:.01em;
+  text-shadow:0 2px 8px rgba(0,0,0,.7);
+  line-height:1;
+}
+.logo-no{
+  font-family:'Abril Fatface',serif;
+  font-size:2rem;
+  color:#cc2200;
+  letter-spacing:.01em;
+  text-shadow:0 2px 8px rgba(0,0,0,.6);
+  line-height:1;
+}
+/* thin tricolore bar under the name */
+.nav-logo-bar{
+  display:flex;height:3px;width:100%;border-radius:2px;overflow:hidden;margin-top:2px;
+}
+.bar-g{flex:1;background:#4caf50;}
+.bar-w{flex:1;background:#ffffff;}
+.bar-r{flex:1;background:#cc2200;}
+
+/* LINKS */
+.nav-links{display:flex;gap:1.8rem;list-style:none}
+.nav-links a{
+  color:#ffffff;
+  font-family:'Be Vietnam Pro',sans-serif;
+  font-size:.78rem;
+  font-weight:500;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  padding:.3rem 0;
+  border-bottom:2px solid transparent;
+  transition:color .2s, border-color .2s;
+}
+.nav-links a:hover{color:var(--accent-lt);border-bottom-color:var(--accent)}
+
+/* RIGHT SIDE */
+.nav-right{display:flex;align-items:center;gap:1.2rem}
+.lang-switcher{display:flex;align-items:center;gap:.3rem}
+.lang-btn{
+  background:none;
+  border:1.5px solid rgba(255,255,255,.25);
+  color:rgba(255,255,255,.65);
+  font-family:'Be Vietnam Pro',sans-serif;
+  font-size:.72rem;
+  font-weight:600;
+  letter-spacing:.1em;
+  padding:.22rem .5rem;
+  cursor:pointer;
+  border-radius:3px;
+  transition:all .2s;
+}
+.lang-btn.active{
+  border-color:var(--accent);
+  color:var(--accent);
+  background:rgba(240,180,41,.08);
+}
+.nav-cta{
+  background:var(--primary);
+  color:#ffffff !important;
+  font-family:'Be Vietnam Pro',sans-serif;
+  font-size:.78rem;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  padding:.55rem 1.4rem;
+  border-radius:4px;
+  border:2px solid var(--primary);
+  transition:all .22s;
+  white-space:nowrap;
+  box-shadow:0 2px 8px rgba(204,34,0,.4);
+}
+.nav-cta:hover{
+  background:transparent;
+  border-color:var(--accent);
+  color:var(--accent) !important;
+  box-shadow:none;
+}
+
+/* HAMBURGER */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:.3rem}
+.hamburger span{width:26px;height:2px;background:#ffffff;display:block;transition:all .3s}
+
+/* MOBILE MENU */
+.mobile-menu{display:none;position:fixed;inset:0;background:rgba(28,8,0,.98);z-index:99;flex-direction:column;align-items:center;justify-content:center;gap:2rem}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:#ffffff;font-family:'Be Vietnam Pro',sans-serif;font-size:1.3rem;letter-spacing:.15em;text-transform:uppercase;padding:.5rem;transition:color .2s}
+.mobile-menu a:hover{color:var(--accent)}
+.mobile-menu .mob-cta{background:var(--primary);padding:.8rem 2.5rem;border-radius:4px;margin-top:1rem}
+
+/* HERO */
+#hero{position:relative;height:100vh;min-height:600px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.05);transition:transform 8s ease-out}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(28,8,0,.35) 0%,rgba(28,8,0,.60) 40%,rgba(28,8,0,.82) 100%)}
+.hero-content{position:relative;z-index:2;max-width:900px;padding:calc(var(--nav-h) + 1rem) 2rem 0}
+.hero-eyebrow{font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.4em;text-transform:uppercase;color:var(--accent-lt);margin-bottom:1.5rem;opacity:0;animation:fadeUp .8s .3s forwards}
+.hero-title{font-family:'Abril Fatface',serif;font-size:clamp(3.5rem,9vw,7rem);color:var(--white);line-height:.95;margin-bottom:.3rem;opacity:0;animation:fadeUp .8s .5s forwards}
+.hero-title-sub{font-family:'Abril Fatface',serif;font-size:clamp(2rem,5vw,3.5rem);color:var(--accent);line-height:1;margin-bottom:1.5rem;opacity:0;animation:fadeUp .8s .65s forwards}
+.hero-subtitle{font-family:'Lora',serif;font-style:italic;font-size:clamp(1rem,2.5vw,1.3rem);color:rgba(255,255,255,.85);margin-bottom:2.5rem;opacity:0;animation:fadeUp .8s .8s forwards}
+.hero-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;opacity:0;animation:fadeUp .8s 1s forwards}
+.btn-primary{background:var(--primary);color:#fff;font-family:'Be Vietnam Pro',sans-serif;font-size:.85rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:.9rem 2.2rem;border-radius:4px;border:2px solid var(--primary);transition:all .25s;box-shadow:0 3px 12px rgba(204,34,0,.45)}
+.btn-primary:hover{background:transparent;color:var(--white)}
+.btn-outline{background:transparent;color:var(--white);font-family:'Be Vietnam Pro',sans-serif;font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;padding:.85rem 2rem;border-radius:3px;border:2px solid rgba(255,255,255,.6);transition:all .25s}
+.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:0;animation:fadeUp .8s 1.3s forwards}
+.hero-scroll span{font-family:'Be Vietnam Pro',sans-serif;font-size:.65rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(255,255,255,.5)}
+.scroll-line{width:1px;height:40px;background:linear-gradient(var(--accent),transparent);animation:scrollPulse 2s infinite}
+
+/* TRUST BADGE */
+#trust{background:#1c0800;padding:1.5rem 5%}
+.trust-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:center;align-items:center;gap:2.5rem;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:.6rem;color:rgba(255,255,255,.7);font-family:'Be Vietnam Pro',sans-serif;font-size:.8rem;letter-spacing:.08em}
+.trust-item strong{color:var(--accent);font-size:1rem}
+.trust-sep{color:rgba(255,255,255,.2);font-size:1.2rem}
+
+/* SECTIONS GENERAL */
+section{padding:6rem 5%}
+.section-inner{max-width:1200px;margin:0 auto}
+.section-label{font-family:'Be Vietnam Pro',sans-serif;font-size:.7rem;letter-spacing:.4em;text-transform:uppercase;color:var(--primary);margin-bottom:.8rem;font-weight:600}
+.section-title{font-family:'Abril Fatface',serif;font-size:clamp(2rem,5vw,3.2rem);color:var(--text);line-height:1.1;margin-bottom:1.5rem}
+.section-title.white{color:var(--white)}
+.section-divider{width:60px;height:3px;background:var(--accent);margin-bottom:2rem}
+
+/* MENU */
+#menu{background:var(--bg)}
+.menu-tabs{display:flex;gap:0;border-bottom:2px solid var(--border);margin-bottom:3rem;flex-wrap:wrap}
+.menu-tab{font-family:'Be Vietnam Pro',sans-serif;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;padding:.7rem 1.5rem;cursor:pointer;background:none;border:none;color:var(--text-muted);border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s}
+.menu-tab.active{color:var(--primary);border-bottom-color:var(--primary)}
+.menu-panel{display:none}
+.menu-panel.active{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem}
+.menu-item{display:flex;justify-content:space-between;align-items:baseline;padding:1rem 0;border-bottom:1px solid var(--border)}
+.menu-item:last-child{border-bottom:none}
+.menu-item-left{flex:1}
+.menu-item-name{font-family:'Lora',serif;font-weight:600;font-size:.95rem;color:var(--text);margin-bottom:.3rem}
+.menu-item-desc{font-family:'Lora',serif;font-style:italic;font-size:.8rem;color:var(--text-muted);line-height:1.4}
+.menu-item-price{font-family:'Be Vietnam Pro',sans-serif;font-size:.9rem;font-weight:600;color:var(--primary);white-space:nowrap;margin-left:1rem}
+.menu-note{text-align:center;margin-top:2.5rem;font-family:'Lora',serif;font-style:italic;color:var(--text-muted)}
+.menu-cat-header{grid-column:1/-1;font-family:'Abril Fatface',serif;font-size:1.1rem;color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:.5rem;margin-bottom:.5rem}
+
+/* STORY + PHOTOS */
+#story{background:#1c0800}
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.story-text .section-label{color:var(--accent)}
+.story-text .section-title{color:var(--white)}
+.story-text p{color:rgba(255,255,255,.75);font-size:1rem;line-height:1.8;margin-bottom:1.2rem}
+.story-text p:last-child{margin-bottom:0}
+.story-text em{color:var(--accent-lt)}
+.story-imgs{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto auto;gap:1rem}
+.story-img-main{grid-column:1/-1;border-radius:4px;overflow:hidden;height:280px}
+.story-img-main img,.story-img-side img{width:100%;height:100%;object-fit:cover}
+.story-img-side{border-radius:4px;overflow:hidden;height:180px}
+.story-badges{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.5rem}
+.story-badge{background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.4);color:var(--accent-lt);font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.1em;padding:.3rem .9rem;border-radius:2px}
+
+/* ABOUT / LOCAL */
+#about{background:var(--bg-alt)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem;margin-top:3rem}
+.about-card{background:var(--white);border-radius:4px;padding:1.8rem;border:1px solid var(--border);text-align:center}
+.about-icon{font-size:2rem;margin-bottom:1rem}
+.about-card h3{font-family:'Abril Fatface',serif;font-size:1.1rem;color:var(--primary);margin-bottom:.5rem}
+.about-card p{font-size:.85rem;color:var(--text-muted);line-height:1.6}
+
+/* GALLERY */
+#gallery{background:var(--bg)}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto auto;gap:1rem;margin-top:2.5rem}
+.gallery-item{border-radius:4px;overflow:hidden;position:relative}
+.gallery-item img{width:100%;height:240px;object-fit:cover;transition:transform .5s ease}
+.gallery-item:hover img{transform:scale(1.06)}
+.gallery-item.tall{grid-row:span 2}
+.gallery-item.tall img{height:100%}
+
+/* REVIEWS */
+#reviews{background:#1c0800}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.review-card{background:rgba(255,255,255,.05);border:1px solid rgba(201,168,76,.2);border-radius:4px;padding:1.8rem}
+.review-stars{color:var(--accent);font-size:1rem;margin-bottom:.8rem;letter-spacing:.1em}
+.review-text{font-family:'Lora',serif;font-style:italic;font-size:.9rem;color:rgba(255,255,255,.8);line-height:1.7;margin-bottom:1rem}
+.review-author{font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.review-source{font-size:.7rem;color:rgba(255,255,255,.4);margin-top:.2rem}
+.tripadvisor-badge{display:flex;align-items:center;gap:.8rem;background:rgba(255,255,255,.04);border:1px solid rgba(201,168,76,.2);border-radius:4px;padding:1rem 1.5rem;margin-top:2rem;justify-content:center}
+.ta-score{font-family:'Abril Fatface',serif;font-size:2.5rem;color:var(--accent)}
+.ta-info small{font-family:'Be Vietnam Pro',sans-serif;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);display:block}
+.ta-info strong{color:rgba(255,255,255,.9);font-family:'Be Vietnam Pro',sans-serif}
+
+/* CONTACT / BOOKING */
+#contact{background:var(--bg-alt)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;margin-top:3rem}
+.contact-form{background:var(--white);border-radius:4px;padding:2.5rem;border:1px solid var(--border)}
+.form-group{margin-bottom:1.2rem}
+.form-group label{display:block;font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.4rem}
+.form-group input,.form-group select,.form-group textarea{width:100%;border:1px solid var(--border);border-radius:3px;padding:.7rem .9rem;font-family:'Lora',serif;font-size:.9rem;background:var(--bg);color:var(--text);transition:border .2s}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--primary)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.form-group textarea{resize:vertical;min-height:100px}
+.form-group.privacy{display:flex;align-items:flex-start;gap:.6rem}
+.form-group.privacy input{width:auto;margin-top:.2rem}
+.form-group.privacy label{font-size:.75rem;line-height:1.5;text-transform:none;letter-spacing:0}
+.btn-submit{width:100%;background:var(--primary);color:var(--white);border:none;font-family:'Be Vietnam Pro',sans-serif;font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;padding:1rem;border-radius:3px;cursor:pointer;transition:background .2s;margin-top:.5rem}
+.btn-submit:hover{background:var(--primary-dk)}
+.contact-info h3{font-family:'Abril Fatface',serif;font-size:1.5rem;color:var(--primary);margin-bottom:1.5rem}
+.info-row{display:flex;gap:1rem;margin-bottom:1.2rem;align-items:flex-start}
+.info-icon{font-size:1.3rem;margin-top:.1rem;min-width:24px}
+.info-content strong{font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);display:block;margin-bottom:.2rem}
+.info-content p,.info-content a{font-size:.95rem;color:var(--text);line-height:1.5}
+.info-content a:hover{color:var(--primary)}
+.social-links{display:flex;gap:.8rem;margin-top:1.5rem;flex-wrap:wrap}
+.social-btn{display:flex;align-items:center;gap:.5rem;background:var(--white);border:1px solid var(--border);color:var(--text);font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;letter-spacing:.08em;padding:.5rem 1rem;border-radius:3px;transition:all .2s}
+.social-btn:hover{background:var(--primary);color:var(--white);border-color:var(--primary)}
+.whatsapp-btn{display:block;background:#25D366;color:var(--white);text-align:center;font-family:'Be Vietnam Pro',sans-serif;font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;padding:1rem;border-radius:3px;margin-top:1.5rem;transition:background .2s}
+.whatsapp-btn:hover{background:#1da851}
+.map-wrap{margin-top:1.5rem;border-radius:4px;overflow:hidden;border:1px solid var(--border)}
+.map-wrap iframe{width:100%;height:250px;border:none;display:block}
+
+/* FOOTER */
+footer{background:var(--bg-dark);border-top:1px solid rgba(201,168,76,.2);padding:3rem 5% 1.5rem}
+.footer-inner{max-width:1200px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem;margin-bottom:2.5rem}
+.footer-brand .nav-logo{font-size:1.6rem;margin-bottom:.8rem}
+.footer-brand p{font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.7;max-width:280px}
+.footer-col h4{font-family:'Be Vietnam Pro',sans-serif;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:.5rem}
+.footer-col ul li a{font-size:.85rem;color:rgba(255,255,255,.5);transition:color .2s}
+.footer-col ul li a:hover{color:var(--accent)}
+.footer-col p{font-size:.85rem;color:rgba(255,255,255,.5);line-height:1.7}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:1.2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+.footer-bottom p{font-family:'Be Vietnam Pro',sans-serif;font-size:.75rem;color:rgba(255,255,255,.3)}
+.footer-bottom a{color:rgba(255,255,255,.4);text-decoration:underline}
+
+/* CHECKERED ACCENT */
+.checkered-accent{height:8px;background:repeating-linear-gradient(90deg,var(--checkered) 0,var(--checkered) 10px,var(--white) 10px,var(--white) 20px)}
+
+/* ANIMATIONS */
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes scrollPulse{0%,100%{opacity:.6}50%{opacity:1}}
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:none}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .nav-links,.nav-cta{display:none}
+  .hamburger{display:flex}
+  .story-grid,.contact-grid{grid-template-columns:1fr}
+  .about-grid{grid-template-columns:1fr 1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr}
+  .gallery-grid{grid-template-columns:1fr 1fr}
+  .gallery-item.tall{grid-row:span 1}
+  .gallery-item.tall img{height:240px}
+}
+@media(max-width:600px){
+  section{padding:4rem 5%}
+  .about-grid{grid-template-columns:1fr}
+  .gallery-grid{grid-template-columns:1fr}
+  .gallery-item img{height:200px}
+  .form-row{grid-template-columns:1fr}
+  .trust-inner{gap:1.5rem}
+  .trust-sep{display:none}
+  .menu-panel.active{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-bg{animation:none;transform:none}
+  .reveal{opacity:1;transform:none;transition:none}
+  *{animation-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="main-nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" aria-label="Trattoria Da Stefano — Italian restaurant Da Nang">
+      <span class="nav-logo-top">Trattoria</span>
+      <span class="nav-logo-name">
+        <span class="logo-da">da&nbsp;</span><span class="logo-ste">Ste</span><span class="logo-fa">fa</span><span class="logo-no">no</span>
+      </span>
+      <span class="nav-logo-bar"><span class="bar-g"></span><span class="bar-w"></span><span class="bar-r"></span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#menu" data-en="Menu" data-vi="Thực Đơn">Menu</a></li>
+      <li><a href="#story" data-en="Our Story" data-vi="Câu Chuyện">Our Story</a></li>
+      <li><a href="#gallery" data-en="Gallery" data-vi="Hình Ảnh">Gallery</a></li>
+      <li><a href="#reviews" data-en="Reviews" data-vi="Đánh Giá">Reviews</a></li>
+      <li><a href="#contact" data-en="Contact" data-vi="Liên Hệ">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span style="color:rgba(255,255,255,.3)">|</span>
+        <button class="lang-btn" data-lang="vi">VI</button>
+      </div>
+      <a href="#contact" class="nav-cta" data-en="Book a Table" data-vi="Đặt Bàn">Book a Table</a>
+    </div>
+    <button class="hamburger" id="ham-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#menu" onclick="closeMob()" data-en="Menu" data-vi="Thực Đơn">Menu</a>
+  <a href="#story" onclick="closeMob()" data-en="Our Story" data-vi="Câu Chuyện">Our Story</a>
+  <a href="#gallery" onclick="closeMob()" data-en="Gallery" data-vi="Hình Ảnh">Gallery</a>
+  <a href="#reviews" onclick="closeMob()" data-en="Reviews" data-vi="Đánh Giá">Reviews</a>
+  <a href="#contact" onclick="closeMob()" class="mob-cta" data-en="Book a Table" data-vi="Đặt Bàn">Book a Table</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg" id="hero-bg" style="background-image:url(\'img/hero.jpg\')"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-en="✦ Traditional Italian Cuisine ✦ Da Nang ✦ An Thuong" data-vi="✦ Ẩm Thực Ý Truyền Thống ✦ Đà Nẵng ✦ An Thượng">✦ Traditional Italian Cuisine ✦ Da Nang ✦ An Thuong</p>
+    <h1 class="hero-title">Trattoria</h1>
+    <p class="hero-title-sub">da Stefano</p>
+    <p class="hero-subtitle" data-en="Authentic Roman flavours — handmade pasta, wood-fired pizza, family recipes from the heart of Rome." data-vi="Hương vị Ý chính thống — mì ống tự làm, pizza lò gỗ, công thức gia đình từ trái tim của Rome.">Authentic Roman flavours — handmade pasta, wood-fired pizza, family recipes from the heart of Rome.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary" data-en="📅 Book a Table" data-vi="📅 Đặt Bàn">📅 Book a Table</a>
+      <a href="#menu" class="btn-outline" data-en="🍽️ View Menu" data-vi="🍽️ Xem Thực Đơn">🍽️ View Menu</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span data-en="Scroll" data-vi="Cuộn">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div id="trust">
+  <div class="trust-inner">
+    <div class="trust-item"><strong>⭐ 5.0</strong><span data-en="/ 5 on TripAdvisor" data-vi="/ 5 trên TripAdvisor">/ 5 on TripAdvisor</span></div>
+    <div class="trust-sep">·</div>
+    <div class="trust-item"><strong data-en="Travelers' Choice" data-vi="Lựa Chọn Của Du Khách">Travelers' Choice</strong><span>TripAdvisor 2024</span></div>
+    <div class="trust-sep">·</div>
+    <div class="trust-item"><strong>~40</strong><span data-en="seats, indoor & terrace" data-vi="chỗ ngồi, trong nhà & ngoài trời">seats, indoor &amp; terrace</span></div>
+    <div class="trust-sep">·</div>
+    <div class="trust-item"><strong data-en="Open Daily" data-vi="Mở Cửa Hàng Ngày">Open Daily</strong><span>10:30 – 22:30</span></div>
+  </div>
+</div>
+
+<!-- CHECKERED -->
+<div class="checkered-accent"></div>
+
+<!-- MENU -->
+<section id="menu">
+  <div class="section-inner">
+    <p class="section-label reveal" data-en="Discover" data-vi="Khám Phá">Discover</p>
+    <h2 class="section-title reveal" data-en="Our Menu — Flavours of Roman Tradition" data-vi="Thực Đơn Của Chúng Tôi — Hương Vị Truyền Thống Rome">Our Menu — Flavours of Roman Tradition</h2>
+    <div class="section-divider reveal"></div>
+
+    <div class="menu-tabs reveal">
+      <button class="menu-tab active" data-tab="starters" data-en="Starters" data-vi="Khai Vị">Starters</button>
+      <button class="menu-tab" data-tab="pasta" data-en="Pasta" data-vi="Mì Ống">Pasta</button>
+      <button class="menu-tab" data-tab="mains" data-en="Mains" data-vi="Món Chính">Mains</button>
+      <button class="menu-tab" data-tab="pizza" data-en="Pizza" data-vi="Pizza">Pizza</button>
+      <button class="menu-tab" data-tab="desserts" data-en="Desserts" data-vi="Tráng Miệng">Desserts</button>
+      <button class="menu-tab" data-tab="wine" data-en="Wine" data-vi="Rượu Vang">Wine</button>
+    </div>
+
+    <!-- STARTERS -->
+    <div class="menu-panel active" id="tab-starters">
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Bruschette Rustiche Miste</p><p class="menu-item-desc" data-en="Tomato & Basil, Butter & Anchovy, Zucchini & Mint" data-vi="Cà chua & húng quế, bơ & cá cơm, bí & bạc hà">Tomato & Basil, Butter & Anchovy, Zucchini &amp; Mint</p></div><span class="menu-item-price">89k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Tagliere Italiano di Salumi e Formaggi</p><p class="menu-item-desc" data-en="Mortadella, Parma Ham, Salami, Gorgonzola, Brie, Emmental & Olives" data-vi="Thịt nguội Ý, phô mai Gorgonzola, Brie và ô liu">Mortadella, Parma Ham, Salami, Gorgonzola, Brie, Emmental &amp; Olives</p></div><span class="menu-item-price">265k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Carpaccio di Manzo con Rucola e Parmigiano</p><p class="menu-item-desc" data-en="Thinly sliced beef with fresh arugula and shaved Parmesan" data-vi="Thịt bò thái mỏng với rau arugula và phô mai Parmesan">Thinly sliced beef with fresh arugula and shaved Parmesan</p></div><span class="menu-item-price">165k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Caprese con Mozzarella</p><p class="menu-item-desc" data-en="Mozzarella with tomato, fresh basil and EVO oil" data-vi="Mozzarella với cà chua, húng quế tươi và dầu olive">Mozzarella with tomato, fresh basil and EVO oil</p></div><span class="menu-item-price">179k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Parmigiana di Melanzane</p><p class="menu-item-desc" data-en="Layers of eggplant with mozzarella, Parmesan, tomato sauce and basil" data-vi="Cà tím nướng với mozzarella, phô mai Parmesan và sốt cà chua">Layers of eggplant with mozzarella, Parmesan, tomato sauce and basil</p></div><span class="menu-item-price">149k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Sauté di Cozze e Vongole</p><p class="menu-item-desc" data-en="Mussels and clams sautéed with garlic, EVO oil and chili pepper" data-vi="Vẹm và nghêu xào tỏi, dầu olive và ớt">Mussels and clams sautéed with garlic, EVO oil and chili pepper</p></div><span class="menu-item-price">199k₫</span></div>
+    </div>
+
+    <!-- PASTA -->
+    <div class="menu-panel" id="tab-pasta">
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Fettuccine al Burro e Parmiggiano ⭐</p><p class="menu-item-desc" data-en="Fresh homemade fettuccine with butter and Parmesan cheese" data-vi="Mì fettuccine tươi tự làm với bơ và phô mai Parmesan">Fresh homemade fettuccine with butter and Parmesan cheese</p></div><span class="menu-item-price">165k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Spaghetti Cacio e Pepe ⭐</p><p class="menu-item-desc" data-en="Spaghetti with Pecorino Romano and freshly ground black pepper" data-vi="Mì spaghetti với phô mai Pecorino Romano và tiêu đen">Spaghetti with Pecorino Romano and freshly ground black pepper</p></div><span class="menu-item-price">175k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Rigatoni Carbonara ⭐</p><p class="menu-item-desc" data-en="Rigatoni with egg-based sauce, Pecorino Romano and crispy Guanciale" data-vi="Rigatoni với sốt trứng, phô mai Pecorino và thịt má heo giòn">Rigatoni with egg-based sauce, Pecorino Romano and crispy Guanciale</p></div><span class="menu-item-price">185k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Rigatoni Amatriciana ⭐</p><p class="menu-item-desc" data-en="Rigatoni with tomato sauce, Pecorino Romano and Guanciale" data-vi="Rigatoni với sốt cà chua, Pecorino Romano và thịt Guanciale">Rigatoni with tomato sauce, Pecorino Romano and Guanciale</p></div><span class="menu-item-price">185k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Lasagna Classica</p><p class="menu-item-desc" data-en="Fresh homemade pasta sheets with meat ragù, tomato sauce, mozzarella and Parmesan" data-vi="Mì lasagna tươi với ragù thịt, sốt cà chua, mozzarella và Parmesan">Fresh homemade pasta with meat ragù, mozzarella and Parmesan</p></div><span class="menu-item-price">245k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Spaghetti alle Vongole</p><p class="menu-item-desc" data-en="Spaghetti with garlic, EVO oil, chili pepper and fresh clams" data-vi="Mì spaghetti với tỏi, dầu olive, ớt và nghêu tươi">Spaghetti with garlic, EVO oil, chili and fresh clams</p></div><span class="menu-item-price">195k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Spaghetti al Cartoccio di Mare</p><p class="menu-item-desc" data-en="Spaghetti baked in foil with garlic, cherry tomatoes, prawns, mussels and clams" data-vi="Mì spaghetti nướng giấy bạc với hải sản và cà chua bi">Spaghetti baked in foil with prawns, mussels and clams</p></div><span class="menu-item-price">245k₫</span></div>
+    </div>
+
+    <!-- MAINS -->
+    <div class="menu-panel" id="tab-mains">
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Involtini alla Romana</p><p class="menu-item-desc" data-en="Thin beef rolls with carrot, celery and mortadella, slow-cooked in tomato sauce" data-vi="Cuộn thịt bò với cà rốt, cần tây và mortadella hầm sốt cà chua">Thin beef rolls with carrot, celery and mortadella in tomato sauce</p></div><span class="menu-item-price">235k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Trippa alla Romana</p><p class="menu-item-desc" data-en="Beef tripe stewed with tomato, celery, Pecorino Romano and fresh mint" data-vi="Bao tử bò hầm với cà chua, cần tây, Pecorino và bạc hà tươi">Beef tripe stewed with tomato, Pecorino Romano and fresh mint</p></div><span class="menu-item-price">225k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Costolette di Agnello allo Scottadito ⭐</p><p class="menu-item-desc" data-en="Grilled lamb chops with EVO oil and rosemary" data-vi="Sườn cừu nướng với dầu olive và hương thảo">Grilled lamb chops with EVO oil and rosemary</p></div><span class="menu-item-price">320k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Pollo all'Arancia</p><p class="menu-item-desc" data-en="Sliced chicken breast with orange sauce and parsley" data-vi="Ức gà thái lát với sốt cam và mùi tây">Sliced chicken breast with orange sauce and parsley</p></div><span class="menu-item-price">175k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Bistecca di Manzo alla Griglia</p><p class="menu-item-desc" data-en="Grilled beef steak 250g" data-vi="Bít tết bò nướng 250g">Grilled beef steak 250g</p></div><span class="menu-item-price">450k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Frittura di Pesce</p><p class="menu-item-desc" data-en="Crispy fried calamari, prawns and catch of the day" data-vi="Mực chiên giòn, tôm và cá tươi theo ngày">Crispy fried calamari, prawns and catch of the day</p></div><span class="menu-item-price">245k₫</span></div>
+    </div>
+
+    <!-- PIZZA -->
+    <div class="menu-panel" id="tab-pizza">
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Margherita</p><p class="menu-item-desc" data-en="Tomato sauce, mozzarella and fresh basil" data-vi="Sốt cà chua, mozzarella và húng quế tươi">Tomato sauce, mozzarella and fresh basil</p></div><span class="menu-item-price">165k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Patate e Funghi ⭐</p><p class="menu-item-desc" data-en="Mozzarella, potatoes and mushrooms" data-vi="Mozzarella, khoai tây và nấm">Mozzarella, potatoes and mushrooms</p></div><span class="menu-item-price">185k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Quattro Formaggi</p><p class="menu-item-desc" data-en="Mozzarella, Gorgonzola, Brie and Emmental" data-vi="Mozzarella, Gorgonzola, Brie và Emmental">Mozzarella, Gorgonzola, Brie and Emmental</p></div><span class="menu-item-price">195k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Mortadella Pistacchio e Burrata ⭐</p><p class="menu-item-desc" data-en="Fresh burrata with mortadella and crushed pistachios" data-vi="Burrata tươi với mortadella và hạt dẻ rang">Fresh burrata with mortadella and crushed pistachios</p></div><span class="menu-item-price">290k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Capricciosa</p><p class="menu-item-desc" data-en="Tomato sauce, mozzarella, Parma ham, mushrooms, egg and olives" data-vi="Sốt cà chua, mozzarella, giăm bông Parma, nấm, trứng và ô liu">Tomato sauce, mozzarella, Parma ham, mushrooms, egg and olives</p></div><span class="menu-item-price">240k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Funghi e Prosciutto Crudo</p><p class="menu-item-desc" data-en="Tomato sauce, mozzarella, mushrooms and Parma ham" data-vi="Sốt cà chua, mozzarella, nấm và giăm bông Parma">Tomato sauce, mozzarella, mushrooms and Parma ham</p></div><span class="menu-item-price">230k₫</span></div>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="menu-panel" id="tab-desserts">
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Tiramisù Classico ⭐</p><p class="menu-item-desc" data-en="Classic Tiramisù with mascarpone, coffee and Savoiardi biscuits" data-vi="Tiramisù cổ điển với mascarpone, cà phê và bánh Savoiardi">Classic Tiramisù with mascarpone, coffee and Savoiardi biscuits</p></div><span class="menu-item-price">99k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Pannacotta</p><p class="menu-item-desc" data-en="Silky cooked cream served with seasonal topping" data-vi="Kem nấu mịn với sốt theo mùa">Silky cooked cream served with seasonal topping</p></div><span class="menu-item-price">99k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Millefoglie con Crema Chantilly</p><p class="menu-item-desc" data-en="Crispy puff pastry with Chantilly cream and chocolate" data-vi="Bánh ngàn lớp với kem Chantilly và sô cô la">Crispy puff pastry with Chantilly cream and chocolate</p></div><span class="menu-item-price">109k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Top Tre ⭐</p><p class="menu-item-desc" data-en="Selection of Tiramisù, Panna Cotta and Millefoglie — the best of three worlds" data-vi="Tổng hợp Tiramisù, Panna Cotta và Millefoglie — ba món tráng miệng ngon nhất">Selection of Tiramisù, Panna Cotta and Millefoglie</p></div><span class="menu-item-price">165k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Crostata con Marmellata</p><p class="menu-item-desc" data-en="Traditional tart filled with fruit jam" data-vi="Bánh tart truyền thống với mứt trái cây">Traditional tart filled with fruit jam</p></div><span class="menu-item-price">89k₫</span></div>
+    </div>
+
+    <!-- WINE -->
+    <div class="menu-panel" id="tab-wine">
+      <div class="menu-cat-header" data-en="🍷 Red Wine" data-vi="🍷 Rượu Vang Đỏ">🍷 Red Wine</div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Terre Forti IGT</p><p class="menu-item-desc">Sangiovese — Emilia Romagna 12.5%</p></div><span class="menu-item-price">420k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Chianti Superiore DOCG — Santa Cristina</p><p class="menu-item-desc">Toscana 13%</p></div><span class="menu-item-price">890k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Amarone 2018 DOCG — Marne 180</p><p class="menu-item-desc">Corvina, Corvinone, Rondinella — Veneto 16.5%</p></div><span class="menu-item-price">1.980k₫</span></div>
+      <div class="menu-cat-header" data-en="🥂 White Wine" data-vi="🥂 Rượu Vang Trắng">🥂 White Wine</div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Terre Forti IGT</p><p class="menu-item-desc">Trebbiano, Chardonnay — Emilia Romagna 11.5%</p></div><span class="menu-item-price">420k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Orvieto Classico DOC — Santa Cristina</p><p class="menu-item-desc">Grechetto, Trebbiano — Umbria 12%</p></div><span class="menu-item-price">590k₫</span></div>
+      <div class="menu-item"><div class="menu-item-left"><p class="menu-item-name">Anthilia DOC — Donnafugata</p><p class="menu-item-desc">Cataratto — Sicilia 12.5%</p></div><span class="menu-item-price">990k₫</span></div>
+    </div>
+
+    <p class="menu-note reveal" data-en="⭐ Signature dishes &nbsp;·&nbsp; Full menu available at the restaurant. Prices in Vietnamese Dong." data-vi="⭐ Món đặc trưng &nbsp;·&nbsp; Thực đơn đầy đủ có tại nhà hàng. Giá tính bằng đồng Việt Nam.">⭐ Signature dishes &nbsp;·&nbsp; Full menu available at the restaurant. Prices in Vietnamese Dong.</p>
+  </div>
+</section>
+
+<div class="checkered-accent"></div>
+
+<!-- STORY -->
+<section id="story">
+  <div class="section-inner">
+    <div class="story-grid">
+      <div class="story-text">
+        <p class="section-label reveal" data-en="Our Story" data-vi="Câu Chuyện Của Chúng Tôi">Our Story</p>
+        <h2 class="section-title white reveal" data-en="From the Cobblestones of Rome to the Shores of Da Nang" data-vi="Từ Những Viên Đá Lát Rome Đến Bờ Biển Đà Nẵng">From the Cobblestones of Rome to the Shores of Da Nang</h2>
+        <div class="section-divider reveal"></div>
+        <p class="reveal" data-en="Stefano grew up in Rome, in a family where Sunday lunch lasted three hours and the amatriciana was non-negotiable. He learned to cook watching his grandmother — her hands dusted with flour, her ragù simmering since dawn. Food, for Stefano, was never just fuel: it was language, memory, love." data-vi="Stefano lớn lên ở Rome, trong một gia đình nơi bữa trưa Chủ nhật kéo dài ba tiếng và món amatriciana là bất di bất dịch. Anh học nấu ăn khi nhìn bà nội — đôi tay phủ bột mì, nồi ragù đã sôi từ sáng sớm.">Stefano grew up in Rome, in a family where Sunday lunch lasted three hours and the amatriciana was non-negotiable. He learned to cook watching his grandmother — her hands dusted with flour, her ragù simmering since dawn. Food, for Stefano, was never just fuel: it was language, memory, love.</p>
+        <p class="reveal" data-en="After years cooking across Italy and Southeast Asia, he fell for Da Nang — the warmth of the sea, the energy of the streets, and people genuinely hungry for something real. In 2023, he opened Trattoria Da Stefano in the heart of An Thuong: a small corner of Rome, honest and uncompromising." data-vi="Sau nhiều năm nấu ăn khắp Ý và Đông Nam Á, anh yêu Đà Nẵng — sự ấm áp của biển, năng lượng của những con phố. Năm 2023, anh mở Trattoria Da Stefano tại An Thượng: một góc nhỏ của Rome, chân thực và không khoan nhượng.">After years cooking across Italy and Southeast Asia, he fell for Da Nang — the warmth of the sea, the energy of the streets, and people genuinely hungry for something real. In 2023, he opened Trattoria Da Stefano in the heart of An Thuong: a small corner of Rome, honest and uncompromising.</p>
+        <p class="reveal"><em data-en='"Every dish that leaves my kitchen carries a piece of that Sunday table. The carbonara my nonna would recognise. The amatriciana that needs no introduction. Come as a stranger, leave as family."' data-vi='"Mỗi món ăn rời khỏi bếp của tôi đều mang theo một mảnh của chiếc bàn Chủ nhật đó. Hãy đến như người lạ, rời đi như người thân."'>"Every dish that leaves my kitchen carries a piece of that Sunday table. Come as a stranger, leave as family." — <strong>Stefano</strong></em></p>
+        <div class="story-badges reveal">
+          <span class="story-badge" data-en="100% Handmade Pasta" data-vi="Mì Tự Làm 100%">100% Handmade Pasta</span>
+          <span class="story-badge" data-en="Imported Italian Ingredients" data-vi="Nguyên Liệu Nhập Khẩu Từ Ý">Imported Italian Ingredients</span>
+          <span class="story-badge" data-en="Roman Family Recipes" data-vi="Công Thức Gia Đình Rome">Roman Family Recipes</span>
+          <span class="story-badge" data-en="Wood-Fired Pizza" data-vi="Pizza Lò Gỗ">Wood-Fired Pizza</span>
+        </div>
+      </div>
+      <div class="story-imgs reveal">
+        <div class="story-img-main">
+          <img src="img/interior.jpg" alt="Trattoria Da Stefano interior — warm dining room with checkered tablecloths, Da Nang" loading="lazy">
+        </div>
+        <div class="story-img-side">
+          <img src="img/facade.jpg" alt="Trattoria Da Stefano entrance at night, An Thuong Da Nang" loading="lazy">
+        </div>
+        <div class="story-img-side">
+          <img src="img/amatriciana.jpg" alt="Rigatoni Amatriciana — signature Roman pasta, handmade at Trattoria Da Stefano" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="checkered-accent"></div>
+
+<!-- ABOUT / INFO CARDS -->
+<section id="about">
+  <div class="section-inner">
+    <p class="section-label reveal" data-en="The Experience" data-vi="Trải Nghiệm">The Experience</p>
+    <h2 class="section-title reveal" data-en="Everything You Need for a Perfect Evening" data-vi="Tất Cả Những Gì Bạn Cần Cho Một Buổi Tối Hoàn Hảo">Everything You Need for a Perfect Evening</h2>
+    <div class="section-divider reveal"></div>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <div class="about-icon">🍽️</div>
+        <h3 data-en="~40 Seats" data-vi="~40 Chỗ Ngồi">~40 Seats</h3>
+        <p data-en="Intimate indoor dining room with warm lighting, plus outdoor terrace tables on An Thuong street." data-vi="Phòng ăn trong nhà ấm cúng với ánh sáng dịu nhẹ, cộng thêm bàn ngoài trời trên phố An Thượng.">Intimate indoor dining room with warm lighting, plus outdoor terrace tables on An Thuong street.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon">🕐</div>
+        <h3 data-en="Open Daily" data-vi="Mở Cửa Hàng Ngày">Open Daily</h3>
+        <p data-en="Lunch and dinner every day, 10:30 AM to 10:30 PM. No reservation needed for lunch — booking recommended for dinner." data-vi="Mở cửa hàng ngày 10:30 – 22:30. Không cần đặt trước cho bữa trưa — nên đặt bàn cho bữa tối.">Lunch and dinner every day, 10:30 AM to 10:30 PM. Booking recommended for dinner.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon">🍷</div>
+        <h3 data-en="Italian Wine List" data-vi="Rượu Vang Ý">Italian Wine List</h3>
+        <p data-en="Carefully selected Italian wines — from Sangiovese to Amarone, Chianti to Sicilian whites. Ask Stefano for pairing advice." data-vi="Rượu vang Ý được chọn lọc kỹ — từ Sangiovese đến Amarone. Hỏi Stefano để tư vấn kết hợp.">Carefully selected Italian wines from Sangiovese to Amarone. Ask Stefano for pairing advice.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon">🎉</div>
+        <h3 data-en="Private Events" data-vi="Sự Kiện Riêng">Private Events</h3>
+        <p data-en="Birthday dinners, group gatherings, business lunches. Contact us to arrange your private event in a genuine Italian setting." data-vi="Bữa tối sinh nhật, họp nhóm, bữa trưa công việc. Liên hệ để tổ chức sự kiện riêng của bạn.">Birthday dinners, group gatherings, business lunches. Contact us to arrange your private event.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon">🥡</div>
+        <h3 data-en="Takeaway Available" data-vi="Mang Về">Takeaway Available</h3>
+        <p data-en="Can't make it to the table? Order your favourite pasta or pizza for takeaway. Call or WhatsApp to place your order." data-vi="Không thể đến nhà hàng? Gọi đồ yêu thích của bạn để mang về qua điện thoại hoặc WhatsApp.">Order your favourite pasta or pizza for takeaway. Call or WhatsApp to place your order.</p>
+      </div>
+      <div class="about-card reveal">
+        <div class="about-icon">📍</div>
+        <h3 data-en="An Thuong Area" data-vi="Khu An Thượng">An Thuong Area</h3>
+        <p data-en="Located on An Thuong 29, the heart of Da Nang's international neighbourhood, steps from My Khe Beach. Street parking available." data-vi="Tọa lạc trên An Thượng 29, khu phố quốc tế của Đà Nẵng, gần bãi biển Mỹ Khê. Có chỗ đỗ xe.">An Thuong 29, Da Nang's international neighbourhood, steps from My Khe Beach.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-inner">
+    <p class="section-label reveal" data-en="The Table" data-vi="Bàn Ăn">The Table</p>
+    <h2 class="section-title reveal" data-en="Our Dishes &amp; Atmosphere" data-vi="Món Ăn &amp; Không Gian Của Chúng Tôi">Our Dishes &amp; Atmosphere</h2>
+    <div class="section-divider reveal"></div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall reveal">
+        <img src="img/facade.jpg" alt="Trattoria Da Stefano Da Nang — restaurant facade with neon sign at night" loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="img/carbonara.jpg" alt="Rigatoni Carbonara — egg-based sauce with crispy Guanciale and Pecorino Romano" loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="img/vongole.jpg" alt="Spaghetti alle Vongole — spaghetti with fresh clams, garlic and EVO oil" loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="img/pizza.jpg" alt="Pizza Patate e Funghi — mozzarella, potatoes and mushrooms on wood-fired pizza" loading="lazy">
+      </div>
+      <div class="gallery-item reveal">
+        <img src="img/interior.jpg" alt="Interior dining room — warm atmosphere with checkered tablecloths and pendant lights" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="checkered-accent"></div>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="section-inner">
+    <p class="section-label reveal" style="color:var(--accent)" data-en="What Guests Say" data-vi="Khách Hàng Nói Gì">What Guests Say</p>
+    <h2 class="section-title white reveal" data-en="Leave as Family" data-vi="Ra Về Như Người Thân">Leave as Family</h2>
+    <div class="section-divider reveal"></div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text" data-en='"Very cool and authentic trattoria in Da Nang. The pasta was excellent and the pizza on our second visit was just as good. Good prices, great atmosphere — this place is the real deal."' data-vi='"Trattoria thực sự chính thống ở Đà Nẵng. Mì ống tuyệt vời và pizza cũng ngon không kém. Giá tốt, không gian thoải mái — đây là nơi thực sự xứng đáng ghé thăm."'>"Very cool and authentic trattoria in Da Nang. The pasta was excellent and the pizza on our second visit was just as good. Good prices, great atmosphere — this place is the real deal."</p>
+        <p class="review-author">— Markus S.</p>
+        <p class="review-source">TripAdvisor, 2025</p>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text" data-en='"Good quality Italian dishes, nice place, nice service and wonderful people. The Carbonara brought me back to Rome. Do not miss it when you are in Da Nang."' data-vi='"Món Ý chất lượng tốt, nơi đẹp, dịch vụ tốt và con người tuyệt vời. Món Carbonara đưa tôi trở lại Rome. Đừng bỏ lỡ khi ở Đà Nẵng."'>"Good quality Italian dishes, nice place, nice service and wonderful people. The Carbonara brought me back to Rome. Do not miss it when you are in Da Nang."</p>
+        <p class="review-author">— Giulia M.</p>
+        <p class="review-source">TripAdvisor, 2025</p>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text" data-en='"The Amatriciana and the lamb chops were out of this world. Stefano clearly cooks with passion. The checkered tablecloths, the Italian wine, the warm welcome — felt exactly like a Roman trattoria."' data-vi='"Amatriciana và sườn cừu ngon tuyệt vời. Stefano nấu với tất cả đam mê. Khăn bàn kẻ ô, rượu vang Ý, sự chào đón nồng nhiệt — cảm giác đúng như trattoria ở Rome."'>"The Amatriciana and the lamb chops were out of this world. Stefano clearly cooks with passion — felt exactly like a Roman trattoria."</p>
+        <p class="review-author">— Sophie L.</p>
+        <p class="review-source">Google, 2025</p>
+      </div>
+    </div>
+    <div class="tripadvisor-badge reveal">
+      <span class="ta-score">5.0</span>
+      <div class="ta-info">
+        <small data-en="RATED ON TRIPADVISOR" data-vi="ĐÁNH GIÁ TRÊN TRIPADVISOR">RATED ON TRIPADVISOR</small>
+        <strong data-en="Travelers' Choice Award 2024 · #708 in Da Nang" data-vi="Giải Thưởng Lựa Chọn Du Khách 2024 · #708 tại Đà Nẵng">Travelers' Choice Award 2024 · #708 in Da Nang</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="checkered-accent"></div>
+
+<!-- CONTACT / BOOKING -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label reveal" data-en="Reserve Your Seat" data-vi="Đặt Chỗ Của Bạn">Reserve Your Seat</p>
+    <h2 class="section-title reveal" data-en="Book a Table at Trattoria Da Stefano" data-vi="Đặt Bàn Tại Trattoria Da Stefano">Book a Table at Trattoria Da Stefano</h2>
+    <div class="section-divider reveal"></div>
+    <div class="contact-grid">
+      <div class="contact-form reveal">
+        <form onsubmit="handleForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname" data-en="Full Name" data-vi="Họ và Tên">Full Name</label>
+              <input type="text" id="fname" name="name" required placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label for="fphone" data-en="Phone / WhatsApp" data-vi="Điện Thoại / WhatsApp">Phone / WhatsApp</label>
+              <input type="tel" id="fphone" name="phone" required placeholder="+84 ...">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fdate" data-en="Date" data-vi="Ngày">Date</label>
+              <input type="date" id="fdate" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="ftime" data-en="Time" data-vi="Giờ">Time</label>
+              <select id="ftime" name="time">
+                <option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option>
+                <option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option>
+                <option>21:00</option><option>21:30</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fguests" data-en="Number of Guests" data-vi="Số Khách">Number of Guests</label>
+              <select id="fguests" name="guests">
+                <option>1</option><option>2</option><option>3</option><option>4</option>
+                <option>5</option><option>6</option><option>7-10</option><option>10+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="femail" data-en="Email (optional)" data-vi="Email (không bắt buộc)">Email (optional)</label>
+              <input type="email" id="femail" name="email" placeholder="you@email.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fnotes" data-en="Special Requests / Allergies" data-vi="Yêu Cầu Đặc Biệt / Dị Ứng">Special Requests / Allergies</label>
+            <textarea id="fnotes" name="notes" placeholder="Allergies, high chair, celebration..."></textarea>
+          </div>
+          <div class="form-group privacy">
+            <input type="checkbox" id="fprivacy" required>
+            <label for="fprivacy" data-en="I agree to the processing of my personal data for booking purposes." data-vi="Tôi đồng ý xử lý dữ liệu cá nhân của tôi cho mục đích đặt bàn.">I agree to the processing of my personal data for booking purposes.</label>
+          </div>
+          <button type="submit" class="btn-submit" data-en="Confirm Reservation" data-vi="Xác Nhận Đặt Bàn">Confirm Reservation</button>
+        </form>
+        <a href="https://wa.me/84336069894?text=Ciao%20Stefano!%20I'd%20like%20to%20book%20a%20table%20at%20Trattoria%20Da%20Stefano." class="whatsapp-btn" data-en="💬 Or Book via WhatsApp" data-vi="💬 Hoặc Đặt Bàn Qua WhatsApp">💬 Or Book via WhatsApp</a>
+      </div>
+      <div class="contact-info reveal">
+        <h3 data-en="Find Us" data-vi="Tìm Chúng Tôi">Find Us</h3>
+        <div class="info-row">
+          <span class="info-icon">📍</span>
+          <div class="info-content">
+            <strong data-en="Address" data-vi="Địa Chỉ">Address</strong>
+            <p>Lo 04 An Thuong 29<br>Ngu Hanh Son, Da Nang<br>Vietnam</p>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">📞</span>
+          <div class="info-content">
+            <strong data-en="Phone / WhatsApp" data-vi="Điện Thoại / WhatsApp">Phone / WhatsApp</strong>
+            <p><a href="tel:+84336069894">+84 336 069 894</a></p>
+          </div>
+        </div>
+        <div class="info-row">
+          <span class="info-icon">🕐</span>
+          <div class="info-content">
+            <strong data-en="Opening Hours" data-vi="Giờ Mở Cửa">Opening Hours</strong>
+            <p data-en="Every day · 10:30 AM – 10:30 PM" data-vi="Mỗi ngày · 10:30 – 22:30">Every day · 10:30 AM – 10:30 PM</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/people/Trattoriadastefanodanang/61587987500409/" class="social-btn" target="_blank" rel="noopener">📘 Facebook</a>
+          <a href="https://www.tripadvisor.com/Restaurant_Review-g298085-d34174590-Reviews-Trattoria_Da_Stefano-Da_Nang.html" class="social-btn" target="_blank" rel="noopener">⭐ TripAdvisor</a>
+        </div>
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.8!2d108.2454!3d16.0520!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDAzJzA3LjIiTiAxMDjCsDE0JzQzLjciRQ!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s&q=Lo+04+An+Thuong+29+Ngu+Hanh+Son+Da+Nang" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Trattoria Da Stefano location map, An Thuong Da Nang"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">
+        <span class="nav-logo-top">Trattoria</span>
+        <span class="nav-logo-name"><span class="logo-da">da&nbsp;</span><span class="logo-ste">Ste</span><span class="logo-fa">fa</span><span class="logo-no">no</span></span>
+        <span class="nav-logo-bar"><span class="bar-g"></span><span class="bar-w"></span><span class="bar-r"></span></span>
+      </div>
+        <p data-en="A little corner of Rome in the heart of Da Nang. Traditional Italian cuisine with handmade pasta, wood-fired pizza and authentic Roman recipes." data-vi="Một góc nhỏ của Rome tại Đà Nẵng. Ẩm thực Ý truyền thống với mì tự làm, pizza lò gỗ và công thức Rome chính thống.">A little corner of Rome in the heart of Da Nang. Traditional Italian cuisine with handmade pasta, wood-fired pizza and authentic Roman recipes.</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-en="Quick Links" data-vi="Liên Kết Nhanh">Quick Links</h4>
+        <ul>
+          <li><a href="#menu" data-en="Menu" data-vi="Thực Đơn">Menu</a></li>
+          <li><a href="#story" data-en="Our Story" data-vi="Câu Chuyện">Our Story</a></li>
+          <li><a href="#gallery" data-en="Gallery" data-vi="Hình Ảnh">Gallery</a></li>
+          <li><a href="#reviews" data-en="Reviews" data-vi="Đánh Giá">Reviews</a></li>
+          <li><a href="#contact" data-en="Book a Table" data-vi="Đặt Bàn">Book a Table</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-en="Contact" data-vi="Liên Hệ">Contact</h4>
+        <p>Lo 04 An Thuong 29<br>Ngu Hanh Son, Da Nang<br><br>
+        <a href="tel:+84336069894">+84 336 069 894</a><br><br>
+        <span data-en="Every day" data-vi="Mỗi ngày">Every day</span><br>10:30 AM – 10:30 PM</p>
+      </div>
+    </div>
+    <address style="display:none">
+      <strong>Trattoria Da Stefano</strong> — Lo 04 An Thuong 29, Ngu Hanh Son, Da Nang, Vietnam — Tel: <a href="tel:+84336069894">+84 336 069 894</a>
+    </address>
+    <div class="footer-bottom">
+      <p>© 2025 Trattoria Da Stefano | <a href="#" data-en="Privacy Policy" data-vi="Chính Sách Bảo Mật">Privacy Policy</a></p>
+      <p data-en="Made with ❤️ in Da Nang · Traditional Italian Cuisine" data-vi="Làm với ❤️ tại Đà Nẵng · Ẩm Thực Ý Truyền Thống">Made with ❤️ in Da Nang · Traditional Italian Cuisine</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// --- IMAGE DATA ---
+// Images served as separate files in img/ folder
+
+// --- NAV SCROLL STATE ---
+// Nav is always solid — subtle shadow boost on scroll
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('main-nav');
+  if(window.scrollY > 20) {
+    nav.style.boxShadow = '0 4px 24px rgba(0,0,0,.6)';
+  } else {
+    nav.style.boxShadow = '0 3px 16px rgba(0,0,0,.45)';
+  }
+}, { passive: true });
+
+// --- HAMBURGER ---
+const hamBtn = document.getElementById('ham-btn');
+const mobMenu = document.getElementById('mobile-menu');
+hamBtn.addEventListener('click', () => {
+  const open = mobMenu.classList.toggle('open');
+  hamBtn.setAttribute('aria-expanded', open);
+});
+function closeMob() { mobMenu.classList.remove('open'); hamBtn.setAttribute('aria-expanded','false'); }
+
+// --- LANG SWITCHER ---
+function setLang(lang) {
+  document.querySelectorAll('[data-en]').forEach(el => {
+    if(el.dataset[lang]) el.textContent = el.dataset[lang];
+  });
+  document.querySelectorAll('[data-vi]').forEach(el => {
+    if(el.dataset[lang]) el.textContent = el.dataset[lang];
+  });
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+  document.documentElement.lang = lang === 'vi' ? 'vi' : 'en';
+  // Re-apply menu tab active state text
+  syncMenuTabText(lang);
+}
+function syncMenuTabText(lang) {
+  document.querySelectorAll('.menu-tab').forEach(tab => {
+    if(tab.dataset[lang]) tab.textContent = tab.dataset[lang];
+  });
+}
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => setLang(btn.dataset.lang));
+});
+
+// --- MENU TABS ---
+document.querySelectorAll('.menu-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.menu-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+  });
+});
+
+// --- SCROLL REVEAL ---
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// --- HERO PARALLAX ---
+window.addEventListener('scroll', () => {
+  const bg = document.getElementById('hero-bg');
+  if(bg) bg.style.transform = 'scale(1.05) translateY(' + (window.scrollY * 0.3) + 'px)';
+}, { passive: true });
+
+// --- FORM ---
+function handleForm(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('.btn-submit');
+  btn.textContent = '✓ Reservation received!';
+  btn.style.background = '#2a7a2a';
+  setTimeout(() => { btn.textContent = 'Confirm Reservation'; btn.style.background = ''; e.target.reset(); }, 3000);
+}
+</script>
+</body>
+</html>
