@@ -1,19 +1,13 @@
 # robots.txt — Trattoria Da Stefano
-# https://trattoria-stefano.vercel.app/
+# https://trattoriadastefano.com/
 
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://trattoria-stefano.vercel.app/sitemap.xml
+Sitemap: https://trattoriadastefano.com/sitemap.xml
 
-# Block unnecessary crawling of assets
-Disallow: /img/*.webp
-
-# Allow Googlebot to index images
 User-agent: Googlebot-Image
 Allow: /img/
 
-# Crawl delay for polite bots
 User-agent: Bingbot
 Crawl-delay: 10

@@ -1,10 +1,10 @@
 {
   "redirects": [
     {
-      "source": "/",
-      "has": [{"type": "host", "value": "trattoriadastefano.com"}],
-      "destination": "https://trattoriadastefano.com/",
-      "permanent": false
+      "source": "/(.*)",
+      "has": [{"type": "host", "value": "trattoria-stefano.vercel.app"}],
+      "destination": "https://trattoriadastefano.com/$1",
+      "permanent": true
     }
   ],
   "headers": [
